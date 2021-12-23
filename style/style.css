@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+.wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.inner {
+    position: relative;
+}
+
+.wsg_right {
+    width: 48%;
+    position: absolute;
+    top: 60%;
+    right: 3%;
+}
+
+.wsg_left {
+    width: 62%;
+    position: absolute;
+    top: 27%;
+    left: 0;
+}
+
+.set_btn {
+    width: 44%;
+    position: absolute;
+    top: 30%;
+    right: 3.5%;
+}
+
+.set_btn2 {
+    width: 44%;
+    position: absolute;
+    top: 42%;
+    right: 3.5%;
+}
+
+.down {
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    -webkit-animation: down 2s infinite;
+    animation: down 2s infinite;
+}
+
+.question,
+.answer {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.words {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.words img {
+    margin-bottom: 2%;
+}
+
+@-webkit-keyframes down {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    50% {
+        -webkit-transform: translate(0, 12px);
+        transform: translate(0, 12px);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
